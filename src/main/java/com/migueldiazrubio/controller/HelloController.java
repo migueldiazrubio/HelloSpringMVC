@@ -10,7 +10,7 @@ public class HelloController {
 
 	@RequestMapping(value = "/index", method = RequestMethod.GET)
 	public String index(ModelMap model) {
-		model.addAttribute("message", "Hi from the controllers");
+		model.addAttribute("message", "Hi from the controller");
 		return "hello";
 	}
 }
